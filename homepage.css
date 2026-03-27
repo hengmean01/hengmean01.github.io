@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    display: flex;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar {
+    font-size: 24px;
+
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.logo p {
+    margin-top: 7px;
+    font-weight: 600;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+    background-color: #e9ecef;
+    color: #007bff;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.breadcrumbs a,
+.page {
+    text-decoration: none;
+    color: #007bff;
+
+}
+
+.page {
+    font-size: 20px;
+}
+
+.breadcrumbs span {
+    margin: 0 5px;
+    color: #6c757d;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.order-history {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.order-history h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #495057;
+}
+
+tr:hover {
+    background-color: #f8f9fa;
+}
+
+.status {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
+
+.status.success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.status.pending {
+    background-color: blue;
+    color: #fff;
+}
+
+.status.cancelled {
+    background-color: orange;
+    color: #fff;
+}
+
+.status-payment.success {
+    color: #28a745;
+
+}
+
+.status-payment.pending {
+    color: blue;
+
+}
+
+.status-payment.cancelled {
+    color: orange;
+
+}
+
+.customer,
+.product {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.bi {
+    margin-right: 5px;
+}

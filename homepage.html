@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order History - Admin Panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./homepage.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img class="image"
+                src="./asset/Illustration-of-logo-design-template-on-transparent-background-PNG-removebg-preview.png"
+                alt="">
+            <p>Logo</p>
+        </div>
+        <ul>
+            <li class="menu"><a href="#"><i class="bi bi-house"></i>Dashboards</a></li>
+            <li class="menu"><a href="#"><i class="bi bi-handbag"></i>Product</a></li>
+            <li class="menu"><a href="#"><i class="bi bi-gem"></i>Widgets</a></li>
+            <li class="menu"><a href="#"><i class="bi bi-folder"></i>UI Elements</a></li>
+            <li class="menu"><a href="#"><i class="bi bi-stickies"></i>Pages</a></li>
+            <li class="menu"><a href="#"><i class="bi bi-calendar"></i>Calendar</a></li>
+            <li class="menu"><a href="#"><i class="bi bi-columns-gap"></i>Forms</a></li>
+            <li class="menu"><a href="#"><i class="bi bi-table"></i>Tables</a></li>
+            <li class="menu"><a href="#"><i class="bi bi-palette"></i>Graphics and Maps</a></li>
+            <li class="menu"><a href="#"><i class="bi bi-layout-sidebar"></i>Layouts</a></li>
+            <li class="menu"><a href="#"><i class="bi bi-x-diamond"></i>Authentication</a></li>
+            <li class="menu"><a href="#"><i class="bi bi-hand-index-thumb"></i>Link</a></li>
+
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="navbar">
+            <div class="breadcrumbs">
+                <i class="bi bi-house page"></i>
+                <a href="#">Home</a>
+                <span>/</span>
+                <a href="#">Orders</a>
+                <span>/</span>
+                Order History
+            </div>
+            <div class="user-profile">
+                <span>Hengmean</span>
+                <img class="image"
+                    src="https://toppng.com/uploads/preview/erson-outline-icon-png-person-icon-png-white-11562864385wyirbbsupu.png"
+                    alt="Admin">
+            </div>
+        </div>
+
+        <div class="order-history">
+            <h2>Order History</h2>
+            <table>
+                <thead>
+                    <tr>
+
+                        <th>Customer</th>
+                        <th>Product</th>
+                        <th>UserID</th>
+                        <th>Orderd Placed</th>
+                        <th>Amount</th>
+                        <th>Payment Status</th>
+                        <th>Order Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="customer">
+                                <img class="image"
+                                    src="https://media.istockphoto.com/id/1389348844/photo/studio-shot-of-a-beautiful-young-woman-smiling-while-standing-against-a-grey-background.jpg?s=612x612&w=0&k=20&c=anRTfD_CkOxRdyFtvsiPopOluzKbhBNEQdh4okZImQc="
+                                    alt="">
+                                <span>Arise</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product">
+                                <img class="image"
+                                    src="https://www.budgetbytes.com/wp-content/uploads/2016/05/Spaghetti-Carbonara-Plated.jpg"
+                                    alt="">
+                                <span>Spaghetti</span>
+                            </div>
+                        </td>
+                        <td>Arise0004</td>
+                        <td>2024-01-15</td>
+                        <td>$15.99</td>
+                        <td class="status-payment cancelled"><i class="bi bi-exclamation-circle-fill"></i>Failed</td>
+                        <td><button class="status cancelled">Cancelled</button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="customer">
+                                <img class="image"
+                                    src="https://img.freepik.com/photos-premium/faire-du-bonheur-priorite-prise-vue-studio-jeune-femme-seduisante-heureuse-posant-fond-bleu_590464-6975.jpg?semt=ais_hybrid&w=740&q=80"
+                                    alt="">
+                                <span>Nana</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product">
+                                <img class="image"
+                                    src="https://static.toiimg.com/thumb/61589069.cms?imgsize=788682&width=800&height=800"
+                                    alt="">
+                                <span>Fried Chicken</span>
+                            </div>
+                        </td>
+                        <td>Nana0004</td>
+                        <td>2024-02-19</td>
+                        <td>$10.99</td>
+                        <td class="status-payment success"><i class="bi bi-check-circle-fill"></i>Paid</td>
+                        <td><button class="status success">Delivered</button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="customer">
+                                <img class="image"
+                                    src="https://png.pngtree.com/png-clipart/20240211/original/pngtree-portrait-of-a-person-png-image_14289687.png"
+                                    alt="">
+                                <span>John</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product">
+                                <img class="image"
+                                    src="https://static01.nyt.com/images/2025/07/25/multimedia/kla-diner-style-burger-fkmj/kla-diner-style-burger-fkmj-mediumSquareAt3X.jpg"
+                                    alt="">
+                                <span>Burger</span>
+                            </div>
+                        </td>
+                        <td>John0004</td>
+                        <td>2024-05-20</td>
+                        <td>$7.99</td>
+                        <td class="status-payment pending"><i class="bi bi-clock-fill"></i>Awaiting</td>
+                        <td><button class="status pending">Processing</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
