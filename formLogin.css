@@ -63,6 +63,7 @@ input[type="password"]:focus {
 }
 
 .btnLogin{
+    
     width: 10%;
     padding: 12px;
     background-color: #667eea;
@@ -74,6 +75,7 @@ input[type="password"]:focus {
     cursor: pointer;
     margin-top: 10px;
     text-align: center;
+    margin-left: 89%;
 }
 
 .btnLogin:hover {
